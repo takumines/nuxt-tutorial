@@ -1,5 +1,10 @@
+const pkg = require('./package')
 
-export default {
+module.export = {
+    generate: {
+      fallback: true
+    },
+
   mode: 'universal',
   /*
   ** Headers of the page
@@ -38,7 +43,11 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/style-resources'
   ],
+  styleResources: {
+    scss: ['~/assets/scss/_variables.scss']
+  },
   /*
   ** Build configuration
   */

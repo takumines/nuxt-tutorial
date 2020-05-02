@@ -13,5 +13,10 @@
   "dependencies": {
     "nuxt": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "node-sass": "^4.14.0",
+    "reset-css": "^5.0.1",
+    "sass-loader": "^8.0.2"
+  }
 }
